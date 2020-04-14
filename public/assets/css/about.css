@@ -1,0 +1,25 @@
+.about-main {
+    padding: 0 15%;
+}
+.about-main .panel-body {
+    font-size: 18px;
+}
+.about-main .panel-body strong {
+    color: red;
+}
+.about-main .panel-body h5 {
+    padding-left: 36px;
+}
+.about-main p {
+    text-indent: 36px;
+    padding: 20px 0;
+}
+#container {
+    margin-top: 30px;
+    width: 100%;
+    height: 600px;
+    border-radius: 25px;
+}
+.map_area {
+    text-align: center;
+}

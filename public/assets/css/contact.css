@@ -1,0 +1,29 @@
+.contact-main {
+  box-sizing: border-box;
+  padding: 0 15%;
+}
+#form {
+  padding: 50px;
+}
+.panel-body .input-group-addon {
+  background: linear-gradient(to right, #ff3c6f, #6956df);
+  color: #ffffff;
+}
+
+.panel-body .input-group {
+  margin-bottom: 20px;
+}
+
+.btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  color: #ffffff;
+}
+.btns button:last-child {
+  margin-left: 50px;
+}
+.ruzhu {
+  background-color: #ff3c6f;
+}
