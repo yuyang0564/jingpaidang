@@ -12,7 +12,7 @@
 */
 
 // 首页
-Route::get('/', 'HomeController@home');
+Route::get('/', 'HomeController@home')->name("home");
 
 
 // 关于我们
@@ -28,3 +28,6 @@ Route::get('/customer', 'HomeController@customer')->name("customer");
 
 //  查看新闻
 Route::get('/new', 'HomeController@new')->name("news");
+
+// 提交用户的信息
+Route::post('/post_user','HomeController@postUser')->name("postUser");

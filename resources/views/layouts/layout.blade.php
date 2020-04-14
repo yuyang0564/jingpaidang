@@ -70,12 +70,33 @@
         </section>
     </footer>
 
+
+	{{-- 模态框 --}}
+	<div class="modal fade bs-example-modal-sm" id="modal" tabindex="-1" role="dialog">
+		<div class="modal-dialog modal-sm" role="document">
+		  <div class="modal-content">
+			<div class="modal-header">
+			  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+			  <h4 class="modal-title">错误信息提示!</h4>
+			</div>
+			<div class="modal-body">
+			  <p>信息不完整，无法提交</p>
+			</div>
+			<div class="modal-footer">
+			  <button type="button" class="btn btn-block btn-primary" data-dismiss="modal">我知道了</button>
+			</div>
+		  </div><!-- /.modal-content -->
+		</div><!-- /.modal-dialog -->
+	  </div><!-- /.modal -->
+
+
+
+
 		@section('scripts')
 			<script src="./assets/js/jquery.js"></script>
 			<script src="./assets/js/bootstarp.js"></script>
 			<script src="assets/js/jquery.flexslider-min.js"></script>
 			<script src="./assets/js/base.js"></script>
 		@show
-
 	</body>
 </html>

@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Mail\Welcome;
+use Illuminate\Support\Facades\Mail;
 
 class HomeController extends Controller
 {
@@ -27,7 +29,7 @@ class HomeController extends Controller
     }
 
     public function contact() {
-        $arr = ['其他','京东','天猫','苏宁','淘宝','唯品会','环球捕手','贝贝','云集'];
+        $arr = ['京东','天猫','苏宁','淘宝','唯品会','环球捕手','贝贝','云集'];
         return view("contact",compact('arr'));
     }
 
@@ -37,5 +39,16 @@ class HomeController extends Controller
 
     public function new() {
         return view("new");
+    }
+
+    public function postUser(Request $request) {
+        $data = $request->all();
+        $this->sendMail($data);
+        return redirect()->route('home');
+    }
+
+    private function sendMail($data) {
+        $email = new Welcome($data);
+        Mail::to("366222104@qq.com")->send($email);
     }
 }
