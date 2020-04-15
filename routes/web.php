@@ -31,3 +31,6 @@ Route::get('/new', 'HomeController@new')->name("news");
 
 // 提交用户的信息
 Route::post('/post_user','HomeController@postUser')->name("postUser");
+
+// 首页提交信息
+Route::post('/post_Company','HomeController@postCompany')->name("postCompany");

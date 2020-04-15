@@ -82,7 +82,7 @@
     <script>
       ;(function(){
         $(document).ready(function(){
-              var modal = $('#modal')
+          var modal = $('#modal')
           var form = $('#form')
           var usernameVlue = $("input[name='username']").val().replace(/\s/g,"")
           var usermobileVlue = $("input[name='usermobile']").val().replace(/\s/g,"")

@@ -3,7 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Mail\Welcome;
+use App\Mail\Notify;
+use App\Mail\NotifyC;
 use Illuminate\Support\Facades\Mail;
 
 class HomeController extends Controller
@@ -41,6 +42,12 @@ class HomeController extends Controller
         return view("new");
     }
 
+    public function postCompany(Request $request) {
+        $data = $request->all();
+        $this->sendMailtoQQ($data);
+        return redirect()->route('home');
+    }
+
     public function postUser(Request $request) {
         $data = $request->all();
         $this->sendMail($data);
@@ -48,7 +55,12 @@ class HomeController extends Controller
     }
 
     private function sendMail($data) {
-        $email = new Welcome($data);
+        $email = new Notify($data);
+        Mail::to("366222104@qq.com")->send($email);
+    }
+
+    private function sendMailtoQQ($data) {
+        $email = new NotifyC($data);
         Mail::to("366222104@qq.com")->send($email);
     }
 }
