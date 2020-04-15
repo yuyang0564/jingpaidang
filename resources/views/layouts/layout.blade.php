@@ -45,7 +45,7 @@
         <section class="index-footer-tellme">
             <section class="index-footer-l">
                 <p>合肥京拍档网络科技公司</p>
-                <p>地址：安徽省合肥市中星城</p>
+                <p>地址： 安徽省合肥市瑶海区中星城</p>
       <p>电话：130-2300-8827</p>
       <p>企业QQ：2406528572</p>
                 <p>邮箱：jingpaidang18@163.com</p>
