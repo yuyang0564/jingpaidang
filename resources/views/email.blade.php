@@ -1,5 +1,5 @@
 @component('mail::message')
-# 用户提交信息提醒
+# 入驻信息提醒
 
 @component('mail::table')
 |  用户名               |  手机                   |     QQ       |  类目    |        商城     |    备注      |
