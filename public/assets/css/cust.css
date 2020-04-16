@@ -1,0 +1,35 @@
+.anli {
+    display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 0 auto;
+	padding-bottom: 100px;
+	position: relative;
+}
+.inner {
+    width: 1200px;
+    margin: 0 auto;
+}
+.nav-pills>li a{
+    border-radius: 0;
+    background-color: #ff3c6f;
+    color: #fff;
+}
+.nav-pills>li a:hover  {
+    color: #333;
+    background-color: #fff;
+}
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+    color: #333;
+    background-color: #fff;
+}
+.anli-title {
+    margin-top: 40px;
+}
+.tabpanel ,.tab-content {
+    margin-top: 50px;
+}
+
+
+
+
