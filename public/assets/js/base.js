@@ -33,6 +33,11 @@
 				
 			})
 
+			//	回到顶部
+			$("#fix-add .gotop").click(function () {
+        $('html,body').stop(true, false).animate({scrollTop: '0px'}, 500);
+    	});
+
 
     })
 })()

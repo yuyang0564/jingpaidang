@@ -1,0 +1,10 @@
+.info_inner {
+  width: 1200px;
+  margin: 0 auto;
+}
+.info_inner .text {
+  text-indent: 32px;
+}
+.back {
+  text-align: center;
+}
