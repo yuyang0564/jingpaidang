@@ -30,7 +30,7 @@
         </ul>
         {{--  tab 切换 --}}
         <div class="tab-content">
-            <div role="tabpanel" class="tab-pane active" id="home">
+            <div role="tabpanel" class="tab-pane" id="home">
                 <section class="swiper_area">
                     <div id="certify">
                         <div class="swiper-container swiper1">
@@ -55,7 +55,7 @@
                     </div>
                 </section>
             </div>
-            <div role="tabpanel" class="tab-pane" id="index">
+            <div role="tabpanel" class="tab-pane active" id="index">
                 <section class="swiper_area">
                     <div id="certify">
                         <div class="swiper-container swiper2">
@@ -159,9 +159,8 @@
     (function () {
         $(document).ready(function () {
 
-
             // 加载完毕时，启动默认的轮播
-            swPlayer("swiper1")
+            swPlayer("swiper2")
 
             $('#tabs a').on('click', function (e) {
                 e.preventDefault()

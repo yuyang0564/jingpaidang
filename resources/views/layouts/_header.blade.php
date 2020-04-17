@@ -3,7 +3,6 @@
         <section class="logo">
             <a href="{{route('home')}}">
                 <img class="img-circle" src="/assets/img/logo.png" alt="" />
-                <h2>京拍档</h2>
             </a>
         </section>
         <section class="header_list">
