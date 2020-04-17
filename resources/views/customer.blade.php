@@ -110,6 +110,11 @@
             </div>
         </div>
 
+        <div class="youshi">
+            <img src="/assets/img/xiangxi.png" alt="">
+        </div>
+
+
         {{--  合作伙伴标题 --}}
         <div class="index-advantages-title anli-title" style="text-align: center;">
             <div class="fl">
@@ -117,30 +122,14 @@
             </div>
         </div>
 
+        
+
         <section class="cust_area huoban-lists">
             
             <ul class="index-partners-list clearfix">
-                <li><a href=""><img src="../assets/img/huoban/14.png"></a></li>
-                <li><a href=""><img src="../assets/img/huoban/1.png"></a></li>
-                <li><a href=""><img src="../assets/img/huoban/2.png"></a></li>
-                <li><a href=""><img src="../assets/img/huoban/4.png"></a></li>
-                <li><a href=""><img src="../assets/img/huoban/5.png"></a></li>
-                <li><a href=""><img src="../assets/img/huoban/6.png"></a></li>
-                <li><a href=""><img src="../assets/img/huoban/7.png"></a></li>
-                <li><a href=""><img src="../assets/img/huoban/8.png"></a></li>
-                <li><a href=""><img src="../assets/img/huoban/9.png"></a></li>
-                <li><a href=""><img src="../assets/img/huoban/10.png"></a></li>
-                <li><a href=""><img src="../assets/img/huoban/11.png"></a></li>
-                <li><a href=""><img src="../assets/img/huoban/12.png"></a></li>
-                <li><a href=""><img src="../assets/img/huoban/13.png"></a></li>
-                <li><a href=""><img src="../assets/img/huoban/3.png"></a></li>
-                <li><a href=""><img src="../assets/img/huoban/15.png"></a></li>
-                <li><a href=""><img src="../assets/img/huoban/16.png"></a></li>
-                <li><a href=""><img src="../assets/img/huoban/17.png"></a></li>
-                <li><a href=""><img src="../assets/img/huoban/18.png"></a></li>
-                <li><a href=""><img src="../assets/img/huoban/19.png"></a></li>
-                <li><a href=""><img src="../assets/img/huoban/20.png"></a></li>
-                <li><a href=""><img src="../assets/img/huoban/21.png"></a></li>
+                @foreach ($data->huoban as $item)
+                    <li><a href=""><img src="{{$item}}"></a></li>
+                @endforeach
             </ul>
         </section>
     </section>

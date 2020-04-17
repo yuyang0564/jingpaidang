@@ -7,7 +7,7 @@
         <div class="flexslider">
             <ul class="slides">
                 <li
-                    style="background:url('./assets/img/_20200411164201.jpg') 50% no-repeat; background-size: cover; height: 770px; ">
+                    style="background:url('./assets/img/_20200411164201.png') 50% no-repeat; background-size: cover; height: 770px; ">
                 </li>
                 <li
                     style="background:url('./assets/img/8afbf9e3280588da6b17e843290a05fa.jpg') 50% no-repeat; background-size: cover; height: 770px;">

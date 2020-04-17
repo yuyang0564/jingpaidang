@@ -11,7 +11,7 @@
 
 <main class="about-main w1200">
   <div class="page-header">
-    <h1>合肥京拍档网络科技公司 <small>公司简介</small></h1>
+    <h1>合肥京拍档网络科技有限公司 <small>公司简介</small></h1>
   </div>
   <div class="panel panel-default">
     <div class="panel-body">

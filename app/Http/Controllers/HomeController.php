@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use App\Mail\Notify;
 use App\Mail\NotifyC;
 use App\models\NewsModel;
+use App\models\CustomerModel;
 use Illuminate\Support\Facades\Mail;
 use stdClass;
 
@@ -43,7 +44,10 @@ class HomeController extends Controller
      * 客户案例
      */
     public function customer() {
-        return view("customer");
+        $datalist = CustomerModel::huoban();
+        $data = new stdClass();
+        $data->huoban = $datalist->huoban;
+        return view("customer",compact('data'));
     }
 
     /**
