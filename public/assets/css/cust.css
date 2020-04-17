@@ -6,6 +6,12 @@
 	padding-bottom: 100px;
 	position: relative;
 }
+.swiper-container {
+    overflow: visible;
+}
+#certify .swiper-slide img {
+    width: 100%;
+}
 .inner {
     width: 1200px;
     margin: 0 auto;
@@ -24,7 +30,7 @@
     background-color: #fff;
 }
 .anli-title {
-    margin-top: 40px;
+    margin-top: 240px;
 }
 .tabpanel ,.tab-content {
     margin-top: 50px;

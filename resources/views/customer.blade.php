@@ -21,11 +21,11 @@
         {{-- tab栏 --}}
         <ul id="tabs" class="nav nav-pills nav-justified" role="tablist">
             <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab"
-                    data-sw="swiper1">Home</a></li>
+                    data-sw="swiper1">天猫商城 </a></li>
             <li role="presentation"><a href="#index" aria-controls="index" role="tab" data-toggle="tab"
-                    data-sw="swiper2">Profile</a></li>
+                    data-sw="swiper2">京东自营</a></li>
             <li role="presentation"><a href="#index2" aria-controls="index2" role="tab" data-toggle="tab"
-                    data-sw="swiper3">Messages</a>
+                    data-sw="swiper3">京东慧采</a>
             </li>
         </ul>
         {{--  tab 切换 --}}
@@ -35,20 +35,20 @@
                     <div id="certify">
                         <div class="swiper-container swiper1">
                             <div class="swiper-wrapper">
-                                <div class="swiper-slide"><img src="/assets/images/certify01.png" />
-                                    <p>非常难得又值钱的认证证书</p>
+                                <div class="swiper-slide"><img src="/assets/images/tm/Tmall01.jpg" />
+                                   
                                 </div>
-                                <div class="swiper-slide"><img src="/assets/images/certify02.png" />
-                                    <p>深圳市优秀互联网企业认定证书</p>
+                                <div class="swiper-slide"><img src="/assets/images/tm/Tmall02.jpg" />
+                                   
                                 </div>
-                                <div class="swiper-slide"><img src="/assets/images/certify03.png" />
-                                    <p>质量管理体系认证荣誉证书</p>
+                                <div class="swiper-slide"><img src="/assets/images/tm/Tmall03.jpg" />
+                                    
                                 </div>
-                                <div class="swiper-slide"><img src="/assets/images/certify04.png" />
-                                    <p>计算机软件著作权登记证书</p>
+                                <div class="swiper-slide"><img src="/assets/images/tm/Tmall04.jpg" />
+                                    
                                 </div>
-                                <div class="swiper-slide"><img src="/assets/images/certify05.png" />
-                                    <p>增值电信业务经营许可证</p>
+                                <div class="swiper-slide"><img src="/assets/images/tm/Tmall05.jpg" />
+                                   
                                 </div>
                             </div>
                         </div>
@@ -60,20 +60,20 @@
                     <div id="certify">
                         <div class="swiper-container swiper2">
                             <div class="swiper-wrapper">
-                                <div class="swiper-slide"><img src="/assets/images/certify03.png" />
-                                    <p>非常难得又值钱的认证证书</p>
+                                <div class="swiper-slide"><img src="/assets/images/jd/jd01.jpg" />
+                                   
                                 </div>
-                                <div class="swiper-slide"><img src="/assets/images/certify02.png" />
-                                    <p>深圳市优秀互联网企业认定证书</p>
+                                <div class="swiper-slide"><img src="/assets/images/jd/jd02.jpg" />
+                                    
                                 </div>
-                                <div class="swiper-slide"><img src="/assets/images/certify01.png" />
-                                    <p>质量管理体系认证荣誉证书</p>
+                                <div class="swiper-slide"><img src="/assets/images/jd/jd03.jpg" />
+                                    
                                 </div>
-                                <div class="swiper-slide"><img src="/assets/images/certify04.png" />
-                                    <p>计算机软件著作权登记证书</p>
+                                <div class="swiper-slide"><img src="/assets/images/jd/jd04.jpg" />
+                                    
                                 </div>
-                                <div class="swiper-slide"><img src="/assets/images/certify05.png" />
-                                    <p>增值电信业务经营许可证</p>
+                                <div class="swiper-slide"><img src="/assets/images/jd/jd05.jpg" />
+                                   
                                 </div>
                             </div>
                         </div>
@@ -85,21 +85,24 @@
                     <div id="certify">
                         <div class="swiper-container swiper3">
                             <div class="swiper-wrapper">
-                                <div class="swiper-slide"><img src="/assets/images/certify05.png" />
-                                    <p>非常难得又值钱的认证证书</p>
+
+
+                                <div class="swiper-slide"><img src="/assets/images/jd-ch/jd01.jpg" />
+                                   
                                 </div>
-                                <div class="swiper-slide"><img src="/assets/images/certify04.png" />
-                                    <p>深圳市优秀互联网企业认定证书</p>
+                                <div class="swiper-slide"><img src="/assets/images/jd-ch/jd02.jpg" />
+                                   
                                 </div>
-                                <div class="swiper-slide"><img src="/assets/images/certify03.png" />
-                                    <p>质量管理体系认证荣誉证书</p>
+                                <div class="swiper-slide"><img src="/assets/images/jd-ch/jd03.jpg" />
+                                   
                                 </div>
-                                <div class="swiper-slide"><img src="/assets/images/certify02.png" />
-                                    <p>计算机软件著作权登记证书</p>
+                                <div class="swiper-slide"><img src="/assets/images/jd-ch/jd04.jpg" />
+                                   
                                 </div>
-                                <div class="swiper-slide"><img src="/assets/images/certify01.png" />
-                                    <p>增值电信业务经营许可证</p>
+                                <div class="swiper-slide"><img src="/assets/images/jd-ch/jd05.jpg" />
+                                   
                                 </div>
+
                             </div>
                         </div>
                     </div>
