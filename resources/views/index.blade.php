@@ -150,7 +150,7 @@
                             <h2>质检报告</h2>
                             <span>Shop transfer</span>
                         </div>
-                        <p>根据天猫审核规则,提供专业的产品质量检测并出具权威报告，用以供审核</p>
+                        <p>正规实验室承办质检报告，提供专业检测并出具权威报告，入驻天猫，京东，等各大线上平台，1-3天出报告，包正规包查询，假一赔十。</p>
                         <div class="border_top"></div>
                         <div class="border_lr"></div>
                     </div>
