@@ -20,9 +20,9 @@
 
         {{-- tab栏 --}}
         <ul id="tabs" class="nav nav-pills nav-justified" role="tablist">
-            <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab"
+            <li role="presentation" ><a href="#home" aria-controls="home" role="tab" data-toggle="tab"
                     data-sw="swiper1">天猫商城 </a></li>
-            <li role="presentation"><a href="#index" aria-controls="index" role="tab" data-toggle="tab"
+            <li role="presentation" class="active"><a href="#index" aria-controls="index" role="tab" data-toggle="tab"
                     data-sw="swiper2">京东自营</a></li>
             <li role="presentation"><a href="#index2" aria-controls="index2" role="tab" data-toggle="tab"
                     data-sw="swiper3">京东慧采</a>
