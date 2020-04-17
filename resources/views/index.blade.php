@@ -496,11 +496,29 @@
 
                 var mreg = /^((13[0-9])|(14[5|7])|(15([0-3]|[5-9]))|(18[0,5-9]))\d{8}$/;
                 if (!mreg.test(postData.m)) {
-                    modal.modal()
+                    Ply.dialog("alert", "联系方式不是有效的号码");
                     return
                 }
                 form.submit()
                 form[0].reset()
+
+                iziToast.show({
+                    class: 'test',
+                    color: '#fff',
+                    icon: 'icon-contacts',
+                    message: '发送成功,等该工作人员与您联系',
+                    position: 'topCenter',
+                    transitionIn: 'flipInX',
+                    transitionOut: 'flipOutX',
+                    progressBarColor: 'rgb(0, 255, 184)',
+                    image: '/assets/img/avatar.jpg',
+                    imageWidth: 70,
+                    layout: 2,
+                    onClose: function () {
+                        console.info('onClose');
+                    },
+                    iconColor: 'rgb(0, 255, 184)'
+                });
             })
 
         })

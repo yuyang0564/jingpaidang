@@ -7,7 +7,10 @@
 	position: relative;
 }
 .swiper-container {
-    overflow: visible;
+    overflow: hidden;
+}
+#certify .swiper-container {
+    padding-bottom: 215px;
 }
 #certify .swiper-slide img {
     width: 100%;
@@ -32,11 +35,15 @@
 .anli-title {
     margin-top: 80px;
 }
+.tab-content {
+    width: 1200px;
+    
+}
 .tabpanel ,.tab-content {
     margin-top: 50px;
 }
 .youshi {
-    margin-top: 240px;
+    margin-top: 100px;
 }
 
 

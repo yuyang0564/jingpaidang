@@ -75,7 +75,8 @@ class HomeController extends Controller
     public function postCompany(Request $request) {
         $data = $request->all();
         $this->sendMailtoQQ($data);
-        return redirect()->route('home');
+        // return redirect()->route('home');
+        return redirect()->back();
     }
 
     /**

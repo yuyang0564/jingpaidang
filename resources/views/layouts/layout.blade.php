@@ -10,6 +10,9 @@
     @section('css')
     <link rel="stylesheet" href="/assets/css/reset.css">
     <link rel="stylesheet" href="/assets/css/bootstarp.css">
+    <link rel="stylesheet" href="/assets/css/ply.css">
+    <link rel="stylesheet" href="/assets/css/iziToast.min.css">
+    <link rel="stylesheet" href="/assets/css/animate.css">
     <link rel="stylesheet" href="/assets/css/style.css">
     @show
     <link rel="shortcut icon" href="/f.png" type="image/x-icon">
@@ -41,7 +44,10 @@
     </header>
     @show
 
-    @yield('content')
+    <section class="w1200">
+        @yield('content')
+    </section>
+    
 
     <footer class="index-footer w1200">
         <section class="index-footer-tellme">
@@ -74,7 +80,7 @@
 
 
     {{-- 模态框 --}}
-    <div class="modal fade bs-example-modal-sm" id="modal" tabindex="-1" role="dialog">
+    {{-- <div class="modal fade bs-example-modal-sm" id="modal" tabindex="-1" role="dialog">
         <div class="modal-dialog modal-sm" role="document">
             <div class="modal-content">
                 <div class="modal-header">
@@ -90,7 +96,7 @@
                 </div>
             </div><!-- /.modal-content -->
         </div><!-- /.modal-dialog -->
-    </div><!-- /.modal -->
+    </div><!-- /.modal --> --}}
 
 
     <div class="QQ">
@@ -115,8 +121,40 @@
     </div>
 
 
+    {{-- 底部广告 --}}
+    <div id="consult_service" class="consult w1200" style="">
+        <div class="wrapper" style="position:relative;">
+            <a href="javascript:void(0);" id="consult_close" class="close"></a>
+            <div class="consult_A">
+                <div class="service_W clearfix">
+                    <div class="icon"><img src="/assets/images/bottom_ad/consult_tmall.png"></div>
+                    <p class="consult_name">天猫代入驻</p>
+                    <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=2406528572&site=qq&menu=yes" class="cutService"><i class="icon_qq"></i>联系TA</a>
+                </div>
+            </div> 
+            <div class="consult_A">
+                <div class="service_W clearfix">
+                    <div class="icon"><img src="/assets/images/bottom_ad/consult_jd.png"></div>
+                    <p class="consult_name">京东代入驻</p>
+                    <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=2406528572&site=qq&menu=yes" class="cutService"><i class="icon_qq"></i>联系TA</a>
+                </div>
+            </div> 
+             <div class="consult_A">
+                <div class="service_W clearfix">
+                    <div class="icon"><img src="/assets/images/bottom_ad/logo.png"></div>
+                    <p class="consult_name">业务咨询</p>
+                    <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=2406528572&site=qq&menu=yes" class="cutService"><i class="icon_qq"></i>联系TA</a>
+                </div>
+            </div>
+        </div>
+        <div class="consult_bg"></div>
+    </div>
+
+
     @section('scripts')
     <script src="/assets/js/jquery.js"></script>
+    <script src="/assets/js/Ply.min.js"></script>
+    <script src="/assets/js/iziToast.min.js"></script>
     <script src="/assets/js/bootstarp.js"></script>
     <script src="/assets/js/jquery.flexslider-min.js"></script>
     <script src="/assets/js/base.js"></script>
