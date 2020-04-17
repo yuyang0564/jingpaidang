@@ -46,6 +46,7 @@ a:visited {
 	text-decoration: none;
 	display: flex;
 	justify-content: space-around;
+	color: #fff;
 }
 .logo a:hover,
 .logo a:visited {
