@@ -82,7 +82,7 @@
           map.setFitView();
         let  info = [];
         info.push("<div><div><img style=\"float:left;\" src=\" https://webapi.amap.com/images/autonavi.png \"/></div> ");
-        info.push("<div style=\"padding:0px 0px 0px 4px;\"><b>合肥京拍档网络科技公司</b>");
+        info.push("<div style=\"padding:0px 0px 0px 4px;\"><b>合肥京拍档网络科技有限公司</b>");
         info.push("电话 : 130-2300-8827");
         info.push("地址 :  安徽省合肥市瑶海区中星城</div></div>");
         let infoWindow = new AMap.InfoWindow({

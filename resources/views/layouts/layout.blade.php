@@ -104,16 +104,16 @@
             <ul>
                 <li class="">
                     <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=2406528572&site=qq&menu=yes" >
-                        <img src="//assets-public.zhizhouvip.com/zz_dsp/public_res/imgs/pup.gif" alt="咨询客服" width="22">
+                        <img src="/assets/img/qq/pup.gif" alt="咨询客服" width="22">
                     </a>
                 </li>
                 <li class="phone">
-                    <img src="//assets-public.zhizhouvip.com/zz_dsp/public_res/imgs/phone.png" alt="电话" width="22">
+                    <img src="/assets/img/qq/phone.png" alt="电话" width="22">
                     <div class="telephone">130-2300-8827</div>
                 </li>
                 <li class="">
                     <a rel="nofollow" href="javascript:void(0)" class="gotop" title="返回顶部">
-                        <img src="//assets-public.zhizhouvip.com/zz_dsp/public_res/imgs/gotop.png" alt="返回顶部" width="22">
+                        <img src="/assets/img/qq/gotop.png" alt="返回顶部" width="22">
                     </a>
                 </li>
             </ul>

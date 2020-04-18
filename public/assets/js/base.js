@@ -47,20 +47,13 @@
         });
 		showHeader();
 		
-
-		// 底部广告 Hover 效果
-		// $("#consult_service .service_W").mouseenter(function () {			
-        //     $(this).addClass("animated pulse").siblings().removeClass("animated pulse");
-        // });
-
         // 入驻页面，提交表单
-        $(".reset_form").click(function () {});
+        // $(".reset_form").click(function () {});
 
         //	回到顶部
         $("#fix-add .gotop").click(function () {
             $("html,body").stop(true, false).animate({ scrollTop: "0px" }, 500);
         });
-
 
         
     });
