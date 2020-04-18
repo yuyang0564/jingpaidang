@@ -1,6 +1,14 @@
+@font-face {
+	font-family: 'font';
+	src: url('../font/sar1.ttf') format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+
 body {
-	font: 14px/30px "Microsoft Yahei", "微软雅黑", "Arial", "Helvetica", "SimHei", "黑体", "STXihei", "华文细黑", sans-serif;
+	font-family: 'font';
 	font-size: 14px;
+	line-height: 30px;
 	height: 100%;
 	background-color: rgb(246,246,248);
 	-moz-user-select: none;
