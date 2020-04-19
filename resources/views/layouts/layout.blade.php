@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="renderer" content="webkit">
-    <meta name="keywords" content="京拍档">
+    <meta name="keywords" content="入驻服务商|京拍档">
+    <meta name=”description” content=”天猫、京东、苏宁高效率入驻，合肥京拍档网络科技有限公司！”>
     @section('css')
     <link rel="stylesheet" href="/assets/css/reset.css">
     <link rel="stylesheet" href="/assets/css/bootstarp.css">
@@ -16,18 +17,19 @@
     <link rel="stylesheet" href="/assets/css/style.css">
     @show
     <link rel="shortcut icon" href="/f.png" type="image/x-icon">
-    <title>京拍档</title>
+    <title>京拍档电商</title>
 </head>
 
 <body>
 
     @section('default-header')
     <header class="header w1200">
-        <section class="logo">
+        <h1 class="logo">
+            京拍档,电商入驻
             <a href="{{route('home')}}">
-                <img class="img-circle" src="/assets/img/logo.png" alt="">
+                <img class="img-circle" src="/assets/img/logo.png" alt="京拍档,电商入驻">
             </a>
-        </section>
+        </h1>
         <section class="header_list">
             <section class="header_list_area">
                 @foreach ($banner as $item)

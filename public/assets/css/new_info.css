@@ -3,7 +3,9 @@
   margin: 0 auto;
 }
 .info_inner .text {
+  font-size: 18px;
   text-indent: 32px;
+  line-height: 2;
 }
 .back {
   text-align: center;

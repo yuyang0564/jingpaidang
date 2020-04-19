@@ -12,7 +12,7 @@
 
     <section class="news_continer w1200">
         <div class="page-header" style="text-align:center;">
-            <h1>新闻快报 <small>新闻、资讯 尽知晓</small></h1>
+            <h1>新闻快报 <small>新闻|资讯 尽知晓</small></h1>
         </div>
         <div class="panel panel-default">
             <div class="panel-body">

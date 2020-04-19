@@ -50,6 +50,9 @@ a:visited {
 	padding: 0 185px;
 
 }
+.logo {
+	font-size: 0;
+}
 .logo a {
 	text-decoration: none;
 }
@@ -143,6 +146,8 @@ a:visited {
 	display: block;
 }
 
+
+
 .banner_area {
 	opacity: .9;
 }
@@ -228,7 +233,7 @@ a:visited {
 	border-radius: 6px;
 	background: #ffffff;
 	padding: 26px 20px;
-	margin-top: -180px;
+	margin-top: -100px;
 	z-index: 9;
 	position: absolute;
 	left: 50%;
@@ -372,7 +377,7 @@ a:visited {
 
 
 .index-service-title {
-	margin-top: 300px;
+	margin-top: 180px;
 	text-align: center;
 	color: #333333;
 	position: relative;

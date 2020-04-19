@@ -102,7 +102,7 @@
                             <h2>代运营</h2>
                             <span>Agent Operation</span>
                         </div>
-                        <p>专注于电子商务整体托管服务，依靠我们专业的店铺运营团队、美工团队、客服团队为客户创造更大的价值。</p>
+                        <p>专注电子商务整体托管服务，依靠我们专业的店铺运营团队、美工团队、客服团队为客户创造更大的价值。</p>
                         <div class="border_top"></div>
                         <div class="border_lr"></div>
                     </div>
@@ -148,9 +148,9 @@
                     <div class="text">
                         <div class="top">
                             <h2>质检报告</h2>
-                            <span>Shop transfer</span>
+                            <span>Quality Report</span>
                         </div>
-                        <p>正规实验室承办质检报告，提供专业检测并出具权威报告，入驻天猫，京东，等各大线上平台，1-3天出报告，包正规包查询，假一赔十。</p>
+                        <p>正规实验室承办质检报告，提供专业检测并出具权威报告，入驻天猫，京东，等各大线上平台，1-3天出报告，正规可查询，假一赔十。</p>
                         <div class="border_top"></div>
                         <div class="border_lr"></div>
                     </div>
