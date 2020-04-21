@@ -16,7 +16,7 @@ class NewsModel extends Model
             ["name"  =>  "网站首页", "route" => "home"],
             ["name"  =>  "关于我们", "route" => "about"],
             ["name"  =>  "客户案例", "route" => "customer"],
-            ["name"  =>  "新闻快报", "route" => "news"],
+            // ["name"  =>  "新闻快报", "route" => "news"],
             ["name"  =>  "我要入驻", "route" => "ruzhu"],
         ];
     }
